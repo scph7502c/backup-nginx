@@ -20,7 +20,7 @@ The archive is saved locally and optionally uploaded to a remote storage (e.g. G
 ## Features
 
 - Archive of important NGINX files
-- Backup rotation (keeps 3 most recent backups locally and remotely)
+- Backup rotation (keeps 7 most recent backups locally and remotely)
 - Upload to rclone-compatible remote (e.g. Google Drive, S3)
 - Fallback: retries upload after 10 minutes if it fails
 - Timestamped logs
