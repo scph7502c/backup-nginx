@@ -6,16 +6,12 @@
 
 The archive is saved locally and optionally uploaded to a remote storage (e.g. Google Drive) via [rclone](https://rclone.org/). It includes backup rotation (local and remote) and retry mechanism.
 
----
-
 ## Requirements
 
 - Bash (Linux)
 - `tar`
 - `rclone` properly configured
 - Sufficient permissions to read NGINX and Let's Encrypt directories (use `sudo` or run as root)
-
----
 
 ## Features
 
@@ -25,7 +21,6 @@ The archive is saved locally and optionally uploaded to a remote storage (e.g. G
 - Fallback: retries upload after 10 minutes if it fails
 - Timestamped logs
 
----
 
 ## Usage
 
